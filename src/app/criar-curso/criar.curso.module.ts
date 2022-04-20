@@ -4,11 +4,13 @@ import { AppRoutingModule } from '../app-routing.module';
 
 
 import { CursosService } from '../cursos/cursos.service';
+import { ReceberCursoCriadoComponent } from '../receber-curso-criado/receber-curso-criado.component';
 import { CriarCursoComponent } from './criar-curso.component';
 
 @NgModule({
   declarations: [
-    CriarCursoComponent
+    CriarCursoComponent,
+    ReceberCursoCriadoComponent
   ],
   imports: [
     CommonModule,
